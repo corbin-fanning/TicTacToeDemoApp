@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-
+//Main thread where the operating system allocates space for the thread
 @main
-struct TicTacToeFeb19App: App {
+struct AppEntry: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
